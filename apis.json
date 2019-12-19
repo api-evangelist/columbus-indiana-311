@@ -1,0 +1,42 @@
+{
+    "name": "Columbus Indiana 311",
+    "description": "<p>The Columbus Service Center is also known as \"3-1-1\"; its mission is to provide access to City services and City information with the highest possible levels of customer service. The \"3-1-1\" initiative strives to help City agencies provide efficient service delivery by allowing them to focus on their core missions, manage workloads efficiently, provide insight into the needs of residents, and measure how well services are delivered.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/COC_311_RGB_TEXT.jpg",
+    "tags": [
+        "311",
+        "have api",
+        "open311",
+        "streams"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/columbus-indiana-311\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Columbus Indiana 311 GeoReport API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/COC_311_RGB_TEXT.jpg",
+            "humanURL": "https:\/\/311.columbus.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/columbus-indiana-311-georeport-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Open 311 Feed",
+            "url": "http:\/\/csr.columbus.in.gov\/csr\/open311\/v2\/services.xml?jurisdiction_id=columbus.in.gov"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/311.columbus.gov\/"
+        }
+    ]
+}
